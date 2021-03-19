@@ -41,7 +41,7 @@ public class Condition {
 		// 결혼한 경우 : 연봉 6000미만 - 15%, 연봉 6000이상 35%
 
 		int salary;
-		String isMarried;
+		int isMarried;
 		double tax;
 
 		Scanner sc = new Scanner(System.in);
@@ -49,7 +49,7 @@ public class Condition {
 		System.out.println("연봉은?");
 		salary = sc.nextInt();
 		System.out.println("결혼여부는? (0-아니오, 1-예)");
-		isMarried = sc.next();
+		isMarried = sc.nextInt();
 
 		if (isMarried == 0) // 미혼
 			if (salary <= 3000)
