@@ -56,8 +56,8 @@ public class SungjukV1b {
 		String fmt = "이름: %s 국어 : %d ,영어 : %d ,수학 : %d\n";
 		System.out.printf(fmt, name, korean, english, math);
 
-		// 총점 : , 평균, 학점
-		String fmt = "총점 : %d , 평균 : %.1f, 성적 : %c";
+		// 총점 : , 평균, 학점. 성적
+		fmt = "총점 : %d , 평균 : %.1f, 성적 : %c";
 		System.out.printf(fmt, tot, avg, grd);
 
 	}
