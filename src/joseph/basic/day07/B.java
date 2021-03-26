@@ -1,6 +1,4 @@
-package joseph.basic.joseph.basic.day07;
-
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+package joseph.basic.day07;
 
 public class B {
     int d; //default

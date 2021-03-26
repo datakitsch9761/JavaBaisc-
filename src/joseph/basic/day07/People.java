@@ -1,4 +1,4 @@
-package joseph.basic.joseph.basic.day07;
+package joseph.basic.day07;
 
 import sun.rmi.runtime.NewThreadAction;
 

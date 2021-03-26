@@ -1,6 +1,6 @@
 package joseph.basic.day08;
 
-import joseph.basic.joseph.basic.day07.B;
+import joseph.basic.day07.B;
 
 public class DataHide {
     public static void main(String[] args) {
