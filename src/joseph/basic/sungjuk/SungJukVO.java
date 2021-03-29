@@ -2,15 +2,15 @@ package joseph.basic.sungjuk;
 
 public class SungJukVO {
 
-    private String name;
-    private int kor;
-    private int eng;
-    private int mat;
-    private int tot;
-    private double avg;
-    private char grd;
+    protected String name;
+    protected int kor;
+    protected int eng;
+    protected int mat;
+    protected int tot;
+    protected double avg;
+    protected char grd;
 
-    public SungJukVO(String name, int kor, int eng, int mat, int sum, double avg, char grd) {
+    public SungJukVO(String name, int kor, int eng, int mat) {
         this.name = name;
         this.kor = kor;
         this.eng = eng;
@@ -50,12 +50,12 @@ public class SungJukVO {
         this.mat = mat;
     }
 
-    public int getSum() {
+    public int getTot() {
         return tot;
     }
 
-    public void setSum(int sum) {
-        this.tot = sum;
+    public void setTot(int tot) {
+        this.tot = tot;
     }
 
     public double getAvg() {
