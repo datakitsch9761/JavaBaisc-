@@ -10,7 +10,7 @@ public class ExerciseQ25 {
         int num1;
         int num2;
         int num3;
-        int[] userNum = {num1,num2,num3};
+        //int[] userNum = {num1,num2,num3};
 
         System.out.println("0부터 999까지의 복권 숫자 3자리를 입력하세요");
 
@@ -33,9 +33,9 @@ public class ExerciseQ25 {
         for (int i = 0; i < 3; ++i) {
             System.out.println(lotto[i]);
         }
-        if(userNum == lotto)
+        //if(userNum == lotto)
             System.out.println("축하합니다 상금100만원에 당첨되셧습니다");
-        else
+        //else
             System.out.println("아쉽지만, 다음기회를!");
     }
 }
