@@ -74,5 +74,7 @@ public class SungJukServiceImpl implements SungjukService {
         String fmt = "%s %d %d %d \n %d %.1f %c\n";
         System.out.printf(fmt, sj.getName(), sj.getKor(), sj.getEng(), sj.getMat(), sj.getTot(), sj.getAvg(), sj.getGrd());
     }
+
+
 }
 
