@@ -71,9 +71,9 @@ public class Starcraft2 {
     }
 
     class SCV2 extends Unit2 implements Unit2Action {
-        final String fmtattck = "융합절단기를 이용해서 대상에 %d의 피해를 주고있습니다\n";
-        final String fmtmove =  "지정한 위치로 %.2f 속도로 이동중입니다\n";
-        final String fmtspabty = "대상을 수리하는 중입니다\n";
+        String fmtattck = "융합절단기를 이용해서 대상에 %d의 피해를 주고있습니다\n";
+        String fmtmove =  "지정한 위치로 %.2f 속도로 이동중입니다\n";
+        String fmtspabty = "대상을 수리하는 중입니다\n";
 
 
         public SCV2() {
@@ -108,9 +108,9 @@ public class Starcraft2 {
 
     class Marine2 extends Unit2 implements Unit2Action {
 
-        final String fmtattck = "가우스소총을 이용해서 대상에 %d의 피해를 주고있습니다\n";
-        final String fmtmove =  "지정한 위치로 %.2f 속도로 이동중입니다\n";
-        final String fmtspabty = "전투자극제를 사용해서 이동속도는 50%%증가, 공격속도 33%% 증가합니다\n";
+        String fmtattck = "가우스소총을 이용해서 대상에 %d의 피해를 주고있습니다\n";
+        String fmtmove =  "지정한 위치로 %.2f 속도로 이동중입니다\n";
+        String fmtspabty = "전투자극제를 사용해서 이동속도는 50%%증가, 공격속도 33%% 증가합니다\n";
 
         public Marine2() {
             name = "해병대";
@@ -139,9 +139,9 @@ public class Starcraft2 {
 
     class Firebat2 extends Unit2 implements Unit2Action {
 
-        final String fmtattck = "화염방사기를 이용해서 대상에 %d의 피해를 주고있습니다\n";
-        final String fmtmove =  "지정한 위치로 %.2f 속도로 이동중입니다\n";
-        final String fmtspabty = "전투자극제를 사용해서 이동속도는 50%%증가, 공격속도 33%% 증가합니다\n";
+        String fmtattck = "화염방사기를 이용해서 대상에 %d의 피해를 주고있습니다\n";
+        String fmtmove =  "지정한 위치로 %.2f 속도로 이동중입니다\n";
+        String fmtspabty = "전투자극제를 사용해서 이동속도는 50%%증가, 공격속도 33%% 증가합니다\n";
 
         public Firebat2() {
             name = "화염방사병";
