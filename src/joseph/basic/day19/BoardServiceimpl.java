@@ -21,9 +21,9 @@ public class BoardServiceimpl implements BoardService {
     public void newBoard() {
         Scanner sc = new Scanner(System.in);
         System.out.println("아이디 제목 본문순으로 입력하세요");
-        String userid = sc.next();
-        String title = sc.next();
-        String contents = sc.next();
+        String userid = sc.nextLine();
+        String title = sc.nextLine();
+        String contents = sc.nextLine();
 
         BoardVO bvo = new BoardVO(null,title,userid,null,null,null,contents);
 
@@ -70,11 +70,30 @@ public class BoardServiceimpl implements BoardService {
 
     @Override
     public void modifyBoard() {
+        Scanner sc = new Scanner(System.in);
 
+        System.out.println("수정할 게시글 번호는? ");
+        String bdno = sc.nextLine();
+        System.out.println("수정할 제목은");
+        String title = sc.nextLine();
+        System.out.println("수정할 본문글은?");
+        String contents = sc.nextLine();
+
+        BoardVO bvo = new BoardVO(bdno,title,null,null,
+                null,null,contents);
+        int cnt = bdao.updateBoard(bvo);
+        if(cnt > 0) System.out.println("수정 완료!!");
     }
 
     @Override
     public void removeBoard() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("삭제할 게시글 번호는 ?");
+        int bdno = sc.nextInt();
+
+        int cnt = bdao.deleteBoard(bdno);
+        if(cnt > 0) System.out.println("삭제완료");
 
     }
 }

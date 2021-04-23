@@ -13,7 +13,7 @@ public class JDBCUtil {
     private String PWD;
 
     public JDBCUtil() {
-        String pkpath = "nickname.basic.jdbc.jdbc";
+        String pkpath = "joseph.basic.jdbc.jdbc";
         // nickname.basic.jdbc : 패키지 경로
         // jdbc : properties 파일명
         rb = ResourceBundle.getBundle(pkpath);

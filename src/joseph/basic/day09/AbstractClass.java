@@ -33,6 +33,7 @@ class Cat2 extends Animal2 {
     }
 }
 
+
 class Dog2 extends Animal2 {
 
     @Override
@@ -40,3 +41,4 @@ class Dog2 extends Animal2 {
         System.out.println("멍 멍 멍 멍 ~");
     }
 }
+
